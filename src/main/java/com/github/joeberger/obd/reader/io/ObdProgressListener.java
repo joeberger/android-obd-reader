@@ -1,4 +1,4 @@
-package com.github.pires.obd.reader.io;
+package com.github.joeberger.obd.reader.io;
 
 public interface ObdProgressListener {
 

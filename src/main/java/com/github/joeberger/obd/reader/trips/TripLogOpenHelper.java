@@ -1,4 +1,4 @@
-package com.github.pires.obd.reader.trips;
+package com.github.joeberger.obd.reader.trips;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

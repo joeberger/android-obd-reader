@@ -11,7 +11,7 @@
  * the License.
  */
 
-package com.github.pires.obd.reader.net;
+package com.github.joeberger.obd.reader.net;
 
 import retrofit.client.Response;
 import retrofit.http.Body;

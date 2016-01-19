@@ -1,4 +1,4 @@
-package com.github.pires.obd.reader.activity;
+package com.github.joeberger.obd.reader.activity;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -9,16 +9,16 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.github.pires.obd.reader.R;
-import com.github.pires.obd.reader.trips.TripListAdapter;
-import com.github.pires.obd.reader.trips.TripLog;
-import com.github.pires.obd.reader.trips.TripRecord;
+import com.github.joeberger.obd.reader.R;
+import com.github.joeberger.obd.reader.trips.TripListAdapter;
+import com.github.joeberger.obd.reader.trips.TripLog;
+import com.github.joeberger.obd.reader.trips.TripRecord;
 
 import java.util.List;
 
 import roboguice.activity.RoboActivity;
 
-import static com.github.pires.obd.reader.activity.ConfirmDialog.createDialog;
+import static com.github.joeberger.obd.reader.activity.ConfirmDialog.createDialog;
 
 /**
  * Some code taken from https://github.com/wdkapps/FillUp

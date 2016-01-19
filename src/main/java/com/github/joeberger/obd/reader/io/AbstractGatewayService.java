@@ -1,4 +1,4 @@
-package com.github.pires.obd.reader.io;
+package com.github.joeberger.obd.reader.io;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -10,7 +10,7 @@ import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
-import com.github.pires.obd.reader.activity.MainActivity;
+import com.github.joeberger.obd.reader.activity.MainActivity;
 import com.google.inject.Inject;
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.github.pires.obd.reader.activity;
+package com.github.joeberger.obd.reader.activity;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -21,14 +21,14 @@ import android.widget.Toast;
 
 import com.github.pires.obd.commands.ObdCommand;
 import com.github.pires.obd.enums.ObdProtocols;
-import com.github.pires.obd.reader.R;
-import com.github.pires.obd.reader.config.ObdConfig;
+import com.github.joeberger.obd.reader.R;
+import com.github.joeberger.obd.reader.config.ObdConfig;
 
 import java.util.ArrayList;
 import java.util.Set;
 
 /**
- * Configuration com.github.pires.obd.reader.activity.
+ * Configuration com.github.joeberger.obd.reader.activity.
  */
 public class ConfigActivity extends PreferenceActivity implements OnPreferenceChangeListener {
 

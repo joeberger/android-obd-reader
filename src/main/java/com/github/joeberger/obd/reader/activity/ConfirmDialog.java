@@ -1,4 +1,4 @@
-package com.github.pires.obd.reader.activity;
+package com.github.joeberger.obd.reader.activity;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

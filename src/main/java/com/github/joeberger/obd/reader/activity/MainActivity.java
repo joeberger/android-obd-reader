@@ -1,4 +1,4 @@
-package com.github.pires.obd.reader.activity;
+package com.github.joeberger.obd.reader.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -42,18 +42,18 @@ import com.github.pires.obd.commands.SpeedCommand;
 import com.github.pires.obd.commands.engine.RPMCommand;
 import com.github.pires.obd.commands.engine.RuntimeCommand;
 import com.github.pires.obd.enums.AvailableCommandNames;
-import com.github.pires.obd.reader.R;
-import com.github.pires.obd.reader.config.ObdConfig;
-import com.github.pires.obd.reader.io.AbstractGatewayService;
-import com.github.pires.obd.reader.io.LogCSVWriter;
-import com.github.pires.obd.reader.io.MockObdGatewayService;
-import com.github.pires.obd.reader.io.ObdCommandJob;
-import com.github.pires.obd.reader.io.ObdGatewayService;
-import com.github.pires.obd.reader.io.ObdProgressListener;
-import com.github.pires.obd.reader.net.ObdReading;
-import com.github.pires.obd.reader.net.ObdService;
-import com.github.pires.obd.reader.trips.TripLog;
-import com.github.pires.obd.reader.trips.TripRecord;
+import com.github.joeberger.obd.reader.R;
+import com.github.joeberger.obd.reader.config.ObdConfig;
+import com.github.joeberger.obd.reader.io.AbstractGatewayService;
+import com.github.joeberger.obd.reader.io.LogCSVWriter;
+import com.github.joeberger.obd.reader.io.MockObdGatewayService;
+import com.github.joeberger.obd.reader.io.ObdCommandJob;
+import com.github.joeberger.obd.reader.io.ObdGatewayService;
+import com.github.joeberger.obd.reader.io.ObdProgressListener;
+import com.github.joeberger.obd.reader.net.ObdReading;
+import com.github.joeberger.obd.reader.net.ObdService;
+import com.github.joeberger.obd.reader.trips.TripLog;
+import com.github.joeberger.obd.reader.trips.TripRecord;
 import com.google.inject.Inject;
 
 import java.io.FileNotFoundException;
@@ -72,8 +72,8 @@ import roboguice.activity.RoboActivity;
 import roboguice.inject.ContentView;
 import roboguice.inject.InjectView;
 
-import static com.github.pires.obd.reader.activity.ConfigActivity.getGpsDistanceUpdatePeriod;
-import static com.github.pires.obd.reader.activity.ConfigActivity.getGpsUpdatePeriod;
+import static com.github.joeberger.obd.reader.activity.ConfigActivity.getGpsDistanceUpdatePeriod;
+import static com.github.joeberger.obd.reader.activity.ConfigActivity.getGpsUpdatePeriod;
 
 // Some code taken from https://github.com/barbeau/gpstest
 

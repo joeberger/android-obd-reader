@@ -1,4 +1,4 @@
-package com.github.pires.obd.reader.activity;
+package com.github.joeberger.obd.reader.activity;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -32,16 +32,14 @@ import com.github.pires.obd.enums.ObdProtocols;
 import com.github.pires.obd.exceptions.MisunderstoodCommandException;
 import com.github.pires.obd.exceptions.NoDataException;
 import com.github.pires.obd.exceptions.UnableToConnectException;
-import com.github.pires.obd.reader.R;
-import com.github.pires.obd.reader.io.BluetoothManager;
+import com.github.joeberger.obd.reader.R;
+import com.github.joeberger.obd.reader.io.BluetoothManager;
 import com.google.inject.Inject;
 
 import java.io.IOException;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 public class TroubleCodesActivity extends Activity {
 

@@ -1,4 +1,4 @@
-package com.github.pires.obd.reader.io;
+package com.github.joeberger.obd.reader.io;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -20,10 +20,10 @@ import com.github.pires.obd.commands.protocol.TimeoutCommand;
 import com.github.pires.obd.commands.temperature.AmbientAirTemperatureCommand;
 import com.github.pires.obd.enums.ObdProtocols;
 import com.github.pires.obd.exceptions.UnsupportedCommandException;
-import com.github.pires.obd.reader.R;
-import com.github.pires.obd.reader.activity.ConfigActivity;
-import com.github.pires.obd.reader.activity.MainActivity;
-import com.github.pires.obd.reader.io.ObdCommandJob.ObdCommandJobState;
+import com.github.joeberger.obd.reader.R;
+import com.github.joeberger.obd.reader.activity.ConfigActivity;
+import com.github.joeberger.obd.reader.activity.MainActivity;
+import com.github.joeberger.obd.reader.io.ObdCommandJob.ObdCommandJobState;
 import com.google.inject.Inject;
 
 import java.io.File;
