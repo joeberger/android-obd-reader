@@ -110,6 +110,7 @@ public class TripListActivity
 
         switch (item.getItemId()) {
             case R.id.itemDelete:
+                //Toast.makeText();
                 showDialog(ConfirmDialog.DIALOG_CONFIRM_DELETE_ID);
                 return true;
 
